@@ -13,6 +13,7 @@ Before implementing:
 - If multiple interpretations exist, present them - don't pick silently.
 - If a simpler approach exists, say so. Push back when warranted.
 - If something is unclear, stop. Name what's confusing. Ask.
+- Any key behavior assertions relied upon in the plan ("X will definitely trigger Y", "Z will definitely be called after successful execution") must be analyzed and provided with a complete actual code call chain, and cannot rely solely on textual descriptions. The design document should indicate "validated: and provide a complete real code call chain", otherwise it cannot be written into the design.
 
 ## 2. Simplicity First
 
